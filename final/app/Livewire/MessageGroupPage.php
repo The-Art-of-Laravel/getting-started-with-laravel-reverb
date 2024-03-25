@@ -7,6 +7,7 @@ use App\Models\MessageGroup;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\On;
 use Livewire\Component;
+use App\Events\SendMessage;
 
 class MessageGroupPage extends Component
 {
